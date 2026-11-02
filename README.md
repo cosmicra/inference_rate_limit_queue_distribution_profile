@@ -1,11 +1,11 @@
-# exptrack_jd038
+# inference_rate_limit_queue_distribution_profile
 
 **分析实验管理与追踪工程师·推理服务的限流与排队的数值分布并标出离群点。**
 
-`exptrack_jd038` —— 抽取数值做分布分析，用中位数绝对偏差识别实验管理与追踪工程师·推理服务的限流与排队上的离群点
+`inference_rate_limit_queue_distribution_profile` —— 抽取数值做分布分析，用中位数绝对偏差识别实验管理与追踪工程师·推理服务的限流与排队上的离群点
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`exptrack_jd038.py` 拷走就能用
+- 单文件，`inference_rate_limit_queue_distribution_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install cosmicra-exptrack_jd038
+pip install cosmicra-inference_rate_limit_queue_distribution_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-exptrack_jd038 --help
+inference_rate_limit_queue_distribution_profile --help
 ```
 
-也可以不用安装，直接把 `exptrack_jd038.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `inference_rate_limit_queue_distribution_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ exptrack_jd038 --help
 ## 用法
 
 ```bash
-python exptrack_jd038.py --file input.txt
-python exptrack_jd038.py --text "示例内容"
-python exptrack_jd038.py --file input.txt --json
+python inference_rate_limit_queue_distribution_profile.py --file input.txt
+python inference_rate_limit_queue_distribution_profile.py --text "示例内容"
+python inference_rate_limit_queue_distribution_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python exptrack_jd038.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_exptrack_jd038.py
+python test_inference_rate_limit_queue_distribution_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_exptrack_jd038.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/cosmicra/exptrack_jd038>
+- GitHub 仓库：<https://github.com/cosmicra/inference_rate_limit_queue_distribution_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_exptrack_jd038.py
 cosmicra 做实验管理与追踪工程师·推理服务的限流与排队相关的问题，方向对标微软的初级实验管理与追踪工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://cosmicra.github.io>
-- 仓库：<https://github.com/cosmicra/exptrack_jd038>
+- 仓库：<https://github.com/cosmicra/inference_rate_limit_queue_distribution_profile>
 
 ## 许可
 

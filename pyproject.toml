@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cosmicra-exptrack_jd038"
+name = "cosmicra-inference_rate_limit_queue_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别实验管理与追踪工程师·推理服务的限流与排队上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://cosmicra.github.io"
-Repository = "https://github.com/cosmicra/exptrack_jd038"
-Issues = "https://github.com/cosmicra/exptrack_jd038/issues"
+Repository = "https://github.com/cosmicra/inference_rate_limit_queue_distribution_profile"
+Issues = "https://github.com/cosmicra/inference_rate_limit_queue_distribution_profile/issues"
 
 [project.scripts]
-exptrack_jd038 = "exptrack_jd038:main"
+inference_rate_limit_queue_distribution_profile = "inference_rate_limit_queue_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["exptrack_jd038"]
+py-modules = ["inference_rate_limit_queue_distribution_profile"]
